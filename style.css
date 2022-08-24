@@ -71,58 +71,82 @@ button {
 }
 
 .titlepic {
-    width: 550px;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 30px;
-    box-shadow: 1px 1px 10px 1px rgb(174, 170, 53);
+  width: 550px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px 1px rgb(174, 170, 53);
 }
 
 /* PART 2 BELOW */
 
-
-
 .top-10 {
-    Display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(166, 166, 166);
-    font-size: 30px;
-    font-weight: 700;
-    padding-top: 55px;
-    padding-bottom: 45px;
-    
-    
+  Display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(166, 166, 166);
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 55px;
+  padding-bottom: 45px;
 }
 
 .section-2 {
-    height: 380px;
-    background-color: rgb(166, 166, 166);
+  height: 380px;
+  background-color: rgb(166, 166, 166);
 }
 
 .fourpics {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .S2pics {
-    width: 300px;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255);
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 1px rgb(255, 255, 255);
 }
 
 .subtext-2 {
-    font-size: 22px;
-    max-width: 290px;
-    color: #000000;
-    padding-top: 20px;
-    
+  font-size: 22px;
+  max-width: 290px;
+  color: #000000;
+  padding-top: 20px;
 }
 
+/* PART 3 BELOW */
+
+.section-3 {
+  height: 500px;
+  background-color: rgb(234, 215, 215);
+  margin: 0;
+  padding: 0;
+  Display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Times New Roman";
+  max-width: 700px;
+  
+  display: flex;
+}
+
+.author {
+  font-size: 20px;
+  font-weight: 700;
+  
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
