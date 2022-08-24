@@ -61,8 +61,6 @@ h1 {
 .subtext {
   font-size: 20px;
   color: #E5E7EB;
-  margin: 0;
-  padding-bottom: 10px;
 }
 
 button {
@@ -82,4 +80,49 @@ button {
 }
 
 /* PART 2 BELOW */
+
+
+
+.top-10 {
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(166, 166, 166);
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    
+    
+}
+
+.section-2 {
+    height: 380px;
+    background-color: rgb(166, 166, 166);
+}
+
+.fourpics {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.S2pics {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255);
+}
+
+.subtext-2 {
+    font-size: 22px;
+    max-width: 290px;
+    color: #000000;
+    padding-top: 20px;
+    
+}
 
